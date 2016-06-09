@@ -1,0 +1,19 @@
+html, body {
+    margin:0;
+    font-family: "Open Sans", Arial, sans-serif;
+    background-color: #cf4646;
+}
+
+/* Menu */
+
+.header {
+    
+}
+
+
+.navbar {
+    padding: 0 15px;
+    border-right: 1px solid rgba(255,255,255,0.3);
+    text-decoration: none;
+    color:#FFFFFF;
+}
