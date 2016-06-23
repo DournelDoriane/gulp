@@ -1,26 +1,98 @@
-html, body {
-    margin:0;
-    font-family: "Open Sans", sans-serif;
-    background-color: #cf4646;
-    color:#FFFFFF;
+html {
+  height: 100%;
 }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #cf4646;
+  color:#FFFFFF;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
 
 /* Menu */
 
 .header {
     text-align: center;
     margin-top: 30px;
-    font-weight: lighter;
+    font-weight: 300;
 }
-
 
 .navbar {
     padding: 0 15px;
     text-decoration: none;
-    color: inherit;
+    color: #FFFFFF;
     border-right: 1px solid rgba(255,255,255,0.3);
 }
 
 .navbar:last-child {
-    border-right: 0px solid rgba(255,255,255,0.3);
+    border-right: none;
 }
+
+
+/* contenu */
+
+.content {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 140px;
+}
+
+.content img {
+    width: 153.4px;
+	height: 153.4px;
+}
+
+.content p {
+    font-size: 41px;
+    font-weight: 300;
+    margin-top: -20px;
+}
+
+.content .btn {
+    padding: 15px 20px 16px;
+    border-radius: 3px;
+    color: #333333;
+    background-color: #ffffff;
+    text-decoration: none;
+    font-size: 22px;
+} 
+
+.content .btn:hover {
+    box-shadow: 0 0 50px rgba(255,255,255,0.3);
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+}
+
+.footer .benefits {
+    padding: 0 50px;
+    margin: 100px 0 100px 0;
+    width: 48.5%;
+}
+
+.footer .benefits .benefit h1{
+    color:#000000;
+    margin-bottom: 14px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.footer .benefits .benefit p {
+    color: #7f8c8d;
+    font-size: 16px;
+    line-height: 26px;
+}
+
