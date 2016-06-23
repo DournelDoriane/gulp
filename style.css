@@ -16,6 +16,7 @@ body {
 /* Menu */
 
 .header {
+    background-color: #cf4646;
     text-align: center;
     margin-top: 30px;
     font-weight: 300;
@@ -37,13 +38,14 @@ body {
 
 .content {
     text-align: center;
-    margin-top: 120px;
-    margin-bottom: 140px;
+    margin-top: 300px;
+    height: 700px;
+    width: 100%;
 }
 
 .content img {
-    width: 153.4px;
-	height: 153.4px;
+    width: 200px;
+	height: 200px;
 }
 
 .content p {
@@ -71,26 +73,58 @@ body {
 .footer {
     background-color: #FFFFFF;
     overflow: hidden;
-    position: absolute; 
-    bottom: 0; 
-    left: 0; 
-    right: 0;
+    width:100%;
 }
 
 .footer .benefits {
-    padding: 0 50px;
-    margin: 100px 0 100px 0;
-    width: 48.5%;
+    width:924px;
+    height:400px;
+    margin: 0 auto;
+    display:block;
+    padding-top:90px;
+    padding-bottom:130px; 
 }
 
-.footer .benefits .benefit h1{
+.benefit1 {
+    float: left;
+    margin: 50px;
+    width: 48.5%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.benefit2 {
+    float: right;
+    margin: 50px;
+    width: 48.5%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.benefit3 {
+    float: left;
+    margin: 50px;
+    width: 48.5%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.benefit4 {
+    float: right;
+    margin: 50px;
+    width: 48.5%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.footer .benefits h1{
     color:#000000;
     margin-bottom: 14px;
     font-size: 22px;
     font-weight: 500;
 }
 
-.footer .benefits .benefit p {
+.footer .benefits p {
     color: #7f8c8d;
     font-size: 16px;
     line-height: 26px;
